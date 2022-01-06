@@ -9,8 +9,8 @@ def read(fname):
     return open(os.path.join(os.path.dirname(__file__), fname)).read()
 
 setup(
-    name = "an_example_pypi_project",
-    version = "0.0.4",
+    name = "psmqtt",
+    version = "0.0.1",
     author = "Eugene Schava",
     author_email = "echava@gmail.com",
     description = ("a cross-platform utility for reporting system and processes utilization (CPU, memory, disks, network) using MQTT protocol"),
