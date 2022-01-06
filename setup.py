@@ -13,10 +13,9 @@ setup(
     version = "0.0.1",
     author = "Eugene Schava",
     author_email = "echava@gmail.com",
-    description = ("a cross-platform utility for reporting system and processes utilization (CPU, memory, disks, network) using MQTT protocol"),
+    description = ("A cross-platform utility for reporting system and processes utilization (CPU, memory, disks, network) using MQTT protocol"),
     license = "MIT",
-    keywords = "",
+    keywords = "mqtt ps psutil",
     url = "https://github.com/eschava/psmqtt",
-    packages=['psmqtt'],
     long_description=read('README')
 )
