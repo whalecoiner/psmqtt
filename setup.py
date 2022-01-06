@@ -8,6 +8,12 @@ from setuptools import setup
 def read(fname):
     return open(os.path.join(os.path.dirname(__file__), fname)).read()
 
+requirementPath = './requirements.txt'
+install_requires = []
+if os.path.isfile(requirementPath):
+    with open(requirementPath) as f:
+        install_requires = f.read().splitlines()
+
 setup(
     name = "psmqtt",
     version = "0.0.1",
@@ -17,5 +23,6 @@ setup(
     license = "MIT",
     keywords = "mqtt ps psutil",
     url = "https://github.com/eschava/psmqtt",
+    install_requires=install_requires,
     long_description=read('README')
 )
