@@ -24,5 +24,5 @@ setup(
     keywords = "mqtt ps psutil",
     url = "https://github.com/eschava/psmqtt",
     install_requires=install_requires,
-    long_description=read('README')
+    long_description=read('README.md')
 )
